@@ -1,0 +1,299 @@
+
+h1, div.bas-de-page, div.biography {
+    text-align: center;
+}
+
+img.profil {
+    /* display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%; */
+    background-image: url(images/wood-texture-3.jpeg);
+    padding: 10px;
+}
+
+ /* img.image {
+    border-radius: 50%;
+}  */
+
+div.haut-page{
+    background-image: url(images/The_Wall_transp.png);
+}
+
+div.en-tete {
+    text-align: center;
+    display: inline-block;
+    /* float: right; */
+} 
+
+div.en-tete-droite{
+    margin-top: 50px;
+    text-align: center; 
+    align-items: center;
+    /* float: right; */
+}
+
+span.nom {
+    font-size: 40px;
+    font-weight: bold;
+    /* color: floralwhite; */
+}
+
+span.info, span.info-complement {
+    font-size: 20px;
+    /* color: floralwhite; */
+}
+
+span.info-complement{
+    margin: 80px;
+}
+
+/* p.Competences-pro {
+    margin: 0 0 0 30;
+} */
+
+
+h1{
+    font-size: 50px;
+}
+
+p.translation{
+    text-align: right;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/* p.body-block {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: chartreuse;
+    background-color: black;
+}  */
+
+p.Entreprises {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    /* text-decoration: double underline; */
+    font-weight: bold;
+    /* color: floralwhite; */
+}
+
+div.company{
+    width: 500px;
+    text-align: left;
+    display: inline-block;
+}
+
+img.company{
+    /* float: left; */
+    height: 80px;
+}
+
+img.company:hover{
+    border: 2px solid purple;
+}
+
+p.Date {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+p.detail-parcours, p.detail-interet, span.detail-parcours {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-left: 50px; */
+}
+
+div.Competences{
+    background-image: url(images/Brain-learning2-trsp.png);
+    /* opacity: 0.5; */
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-repeat: no-rep0 0 no-repeat;
+    /* background-size:contain; */
+    /* opacity:.75; */
+    /* z-index:-1; */
+    /* linear-gradient(to bottom, rgba(255,128,255,0.5), rgba(0,0,128,0.5)) */
+
+}
+
+
+div.parcours-school{
+    /* border: 1px solid black;
+    width: 50%; */
+    background-image: url(images/school-board_large.jpg); 
+    font-family: "ChangeTomorrowToday";
+    background-size: cover;
+    color: whitesmoke;
+    padding: 5px;
+}
+div.School {
+    background-image: url(images/oak-natural-allegro-plaat-5.jpg);
+    padding: 10px;
+}
+
+div.parcours-school > p.body-block{
+    font-family: "LittleBird";
+    background: none;
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+}
+
+p.Diplome, p.Interet{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    /* color:floralwhite; */
+}
+
+h3 {
+    /* color: floralwhite; */
+}
+
+div.Interets{
+    background-image: url(images/Alyssa-White-Gluz.png);
+    background-size: cover;
+    padding: 10px;
+}
+
+#parcours{
+    /*width: 500px;*/
+    height: 70vh;
+    overflow: auto;
+    background-image: url(images/Archer_Suit.png);
+    border-bottom: 1px solid grey;
+}
+
+#parcours>p.body-block{
+    /* background-color: brown; */
+    font-family: "AlexBrush";
+    font-size: 45px;
+}
+
+div.partie-gauche{
+    height: 90vh;
+    overflow: auto;
+}
+
+span.link:hover, a.link:hover{
+    background-color: greenyellow;
+}
+
+h1.moi{
+    font-family: "Floydian";
+    font-size: 75px;
+}
+
+h1.moi::first-letter{
+    color: red;
+}
+
+@font-face {
+    font-family: "LittleBird";
+    src: url("fonts/LittleBird.ttf") format("truetype");}
+
+/* @font-face {
+    font-family: "creative chalk";
+    src: url("fonts/creative chalk.ttf") format("truetype");
+   } */
+
+@font-face {
+    font-family: "Floydian";
+    src: url("fonts/floyd.ttf") format("truetype");
+   }
+/* 
+@font-face {
+    font-family: "Scribble";
+    src: url("fonts/MfScribbleScript-01md.ttf") format("truetype");
+   } */
+
+/* @font-face {
+    font-family: "SmudgieCrayon";
+    src: url("fonts/SmudgieCrayon-rY0O.ttf") format("truetype");
+   } */
+
+@font-face {
+    font-family: "ChangeTomorrowToday";
+    src: url("fonts/ChangeTomorrowToday.ttf") format("truetype");
+   }
+   
+/* @font-face {
+font-family: "Metallica";
+src: url("fonts/Pastorf.ttf") format("truetype");
+} */
+/* 
+@font-face {
+font-family: "IronMaiden";
+src: url("fonts/maiden.ttf") format("truetype");
+} */
+
+@font-face {
+    font-family: "AC-DC";
+    src: url("fonts/squealer.ttf") format("truetype");
+    }
+
+@font-face {
+font-family: "AC-DC-transp";
+src: url("fonts/squealer embossed.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RaceSport";
+    src: url("fonts/RaceSport.ttf") format("truetype");
+    }
+   
+@font-face {
+    font-family: "AlexBrush";
+    src: url("fonts/AlexBrush-Regular.ttf") format("truetype");
+    }
+    
+
+p.Competences{
+    font-family: "RaceSport";
+    font-size: 35px;
+    text-align: center;
+}   
+
+
+p.centres-interet{
+    font-family: "AC-DC-transp";
+    font-size: 45px;
+    text-align: center;
+}
+
+div.header{
+    margin : auto;
+}
+
+img.profil {
+    display: inline-block;
+    margin: 0px auto}
+
+div.biography{
+    background-image: url(images/theater-curtains.png);
+    background-size: auto;
+}
+
+
+div.biography-title{
+    margin-top: 250px;
+}
+
+
+div.detail-biography{
+    margin-bottom: 10px;
+}
