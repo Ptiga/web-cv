@@ -231,3 +231,28 @@ div.company{
     font-family: "AlexBrush";
     src: url("fonts/AlexBrush-Regular.ttf") format("truetype");
     }
+
+@media (max-width: 1080px){
+    div.biography{
+        background-image: url(images/theater-curtains.png);
+        background-size: contain;
+    }
+
+    div.biography-title{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 800px){
+body{
+    border: 5px solid red
+}
+
+    div.biography{
+        background-image: none;
+    }
+
+    div.biography-title{
+        margin-top: 10px;
+    }
+}
